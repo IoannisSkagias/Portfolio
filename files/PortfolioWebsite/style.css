@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('./images/cursor3.png'), auto;
+}
+
+main {
+    width: 100%;
+    height: 200vh;
+}
+
+body {
+    background: rgb(31, 31, 31);
+}
+
+header {
+    /* display: flex;
+    height: 8vh;
+    width: 100%;
+    display: block;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow-y: visible; */
+    overflow-x: hidden;
+}
+
+.container1 {
+    background-image: url('./images/box1background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 1000px;
+}
+
+.bigRectangle {
+    background-image: url('./images/largeRectangle.png');
+    background-size: 30vw;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 1200px;
+    /*56vw*/
+}
+
+.education {
+    background-image: url('./images/education.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+}
+
+.portfolio {
+    background-image: url('./images/portfolio.png');
+    background-size: 820px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 352px;
+    left: 54vw;
+}
+
+.socials {
+    background-image: url('./images/socials2.png');
+    background-size: 310px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 230px;
+    left: calc(100vw - 325px);
+}
+
+.scrollDown {
+    background-image: url('./images/scrollDown.png');
+    background-size: 240px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 590px;
+    left: calc(100vw - 265px);
+}
+
+.extra1 {
+    background-image: url('./images/extra1.png');
+    background-size: 240px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 550px;
+    left: calc(100vw - 230px);
+}
+
+.noise {
+    background-image: url('./images/noise.png');
+    background-size: 100%;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* 1st BREAKPOINT */
+@media (max-width:1500px) {
+    .container1 {
+        background-image: url('./images/box1background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 800px;
+    }
+
+    .bigRectangle {
+        background-image: url('./images/largeRectangle.png');
+        background-size: 28vw;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 64vw;
+    }
+
+    .education {
+        background-image: url('./images/education.png');
+        background-size: 170px;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 1vh;
+        left: 1vw;
+    }
+
+    .portfolio {
+        background-image: url('./images/portfolio.png');
+        background-size: 568px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 352px;
+        left: 59vw;
+    }
+}
+
+/* 2nd BREAKPOINT */
+@media (max-width:1200px) {
+    .container1 {
+        background-image: url('./images/box1background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 680px;
+    }
+
+    .bigRectangle {
+        background-image: url('./images/largeRectangle.png');
+        background-size: 26vw;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 66vw;
+    }
+
+    .education {
+        background-image: url('./images/education.png');
+        background-size: 134px;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 1vh;
+        left: 1vw;
+    }
+
+    .portfolio {
+        background-image: url('./images/portfolio.png');
+        background-size: 444px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 330px;
+        left: 59vw;
+    }
+
+    .socials {
+        background-image: url('./images/socials2.png');
+        background-size: 300px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 160px;
+        left: calc(100vw - 300px);
+    }
+
+    .scrollDown {
+        background-image: url('./images/scrollDown.png');
+        background-size: 180px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 460px;
+        left: calc(100vw - 205px);
+    }
+
+    .extra1 {
+        background-image: url('./images/extra1.png');
+        background-size: 190px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 436px;
+        left: calc(100vw - 190px);
+    }
+}
+
+/* 3rd BREAKPOINT */
+@media (max-width:900px) {
+    .container1 {
+        background-image: url('./images/box1background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 520px;
+    }
+
+    .bigRectangle {
+        background-image: url('./images/largeRectangle.png');
+        background-size: 26vw;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: calc(100vw - 290px);
+    }
+
+    .education {
+        background-image: url('./images/education.png');
+        background-size: 134px;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 1vh;
+        left: 1vw;
+    }
+
+    .portfolio {
+        background-image: url('./images/portfolio.png');
+        background-size: 380px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 220px;
+        left: 59vw;
+    }
+
+    .socials {
+        background-image: url('./images/socials2.png');
+        background-size: 250px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 120px;
+        left: calc(100vw - 230px);
+    }
+
+    .scrollDown {
+        background-image: url('./images/scrollDown.png');
+        background-size: 180px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 460px;
+        left: calc(100vw - 205px);
+    }
+
+    .extra1 {
+        background-image: url('./images/extra1.png');
+        background-size: 190px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 436px;
+        left: calc(100vw - 190px);
+    }
+}
+
+/* 4th BREAKPOINT */
+@media (max-width:480px) {
+    .container1 {
+        background-image: url('./images/mobileBackground.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 100vh;
+    }
+
+    .bigRectangle {
+        background-image: url('./images/bigRectangleScrollDownMobile.png');
+        background-size: calc(210px + 12vh);
+        background-repeat: no-repeat;
+        /* height: 100vh; */
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -110px;
+        left: calc(100vw - 160px);
+    }
+
+    .education {
+        background-image: url('./images/educationMobile.png');
+        background-size: calc(100px + 20vw);
+        background-repeat: no-repeat;
+        /* height: 100vh; */
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 5px;
+        left: -10px;
+    }
+
+    .portfolio {
+        background-image: url('./images/portfolioMobile.png');
+        background-size: 240px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: calc(170px + 30vh);
+        left: -40px;
+    }
+
+    .socials {
+        background-image: url('./images/socialsMobile.png');
+        background-size: calc(200px + 12vh);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: calc(350px + 30vh);
+        left: -60px;
+        transform: rotate(-6deg);
+    }
+
+    .scrollDown {
+        background-image: url('./images/scrollDown.png');
+        background-size: 0px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 420px;
+        left: calc(100vw - 205px);
+    }
+
+    .extra1 {
+        background-image: url('./images/extra1Mobile.png');
+        background-size: 330px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: calc(220px + 30vh);
+        left: calc(100vw - 240px);
+    }
+
+    .extra2 {
+        background-image: url('./images/extra2Mobile.png');
+        background-size: calc(200px + 12vh);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: calc(500px + 30vh);
+        left: -60px;
+    }
+
+    .buttonsContainer {
+        background-image: url('./images/buttonsContainer.png');
+        background-size: 160px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: calc(315px + 30vh);
+        left: calc(100vw - 155px);
+    }
+
+    .facebook {
+        background-image: url('./images/facebookMobile.png');
+        background-size: 50px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: calc(330px + 30vh);
+        left: calc(100vw - 135px);
+        opacity: 0.7;
+    }
+
+    .github {
+        background-image: url('./images/githubMobile.png');
+        background-size: 50px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: calc(330px + 30vh);
+        left: calc(100vw - 65px);
+        opacity: 0.7;
+    }
+
+    .linkedin {
+        background-image: url('./images/linkedInMobile.png');
+        background-size: 50px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: calc(400px + 30vh);
+        left: calc(100vw - 135px);
+        opacity: 0.7;
+    }
+
+    .google {
+        background-image: url('./images/googleMobile.png');
+        background-size: 50px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: calc(400px + 30vh);
+        left: calc(100vw - 65px);
+        opacity: 0.7;
+    }
+}
+
+.divider {
+    width: 100vw;
+    height: 600px;
+    background: rgb(31, 31, 31);
+    /* background-image: url('./images/yellowCircle.png');
+    background-size: 400px;
+    background-repeat: no-repeat; */
+}
+
+.box2 {
+    width: 100vw;
+    height: 800px;
+    background: rgb(240, 225, 185);
+}
+
+
+/* CUSTOM SCROLLBAR */
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    background-color: #1f1f1fec;
+    border-radius: 0px;
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: #ffffffd7;
+    border-radius: 6px;
+  }
